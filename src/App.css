@@ -43,11 +43,6 @@ body {
   background-color: rgb(139, 201, 228);
   animation: body 1s linear;
 }
-@keyframes body {
-  to {
-    background-color: rgb(19, 48, 97);
-  }
-}
 
 .progress {
   height: 3px;
@@ -68,8 +63,8 @@ body {
 .cube-wrap {
   --size: 30vmin;
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: 100%;
+  left: 100%;
   width: 0;
   height: 0;
   perspective: 100vmin;
