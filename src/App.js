@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <div class="progress" ></div>
         
-        <div class="cube-wrap">
+        {/* <div class="cube-wrap">
           <div class="cube">
             <div class="side top">wsgmaniga</div>
             <div class="side bottom">wsgmaniga</div>
@@ -16,10 +16,7 @@ function App() {
             <div class="side left">wsgmaniga</div>
             <div class="side right">wsgmaniga</div>
           </div>
-        </div>
-        <script>
-          
-        </script>
+        </div> */}
       </header>
     </div>
   );
