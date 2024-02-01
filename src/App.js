@@ -5,6 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div class="progress" ></div>
+        
         <div class="cube-wrap">
           <div class="cube">
             <div class="side top">wsgmaniga</div>
