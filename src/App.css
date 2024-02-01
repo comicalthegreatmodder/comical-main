@@ -64,7 +64,7 @@ body {
   --size: 30vmin;
   position: fixed;
   top: 50%;
-  left: 10%;
+  left: 25%;
   width: 0;
   height: 0;
   perspective: 100vmin;
