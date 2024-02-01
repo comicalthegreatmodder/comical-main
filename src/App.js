@@ -15,6 +15,11 @@ function App() {
             <div class="side right"></div>
           </div>
         </div>
+        <script>
+          window.addEventListener('scroll', () => {
+            document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+          }, false);
+        </script>
       </header>
     </div>
   );
