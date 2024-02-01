@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <div class="cube-wrap">
           <div class="cube">
-            <div class="side top"></div>
+            <div class="side top">wsgmaniga</div>
             <div class="side bottom"></div>
             <div class="side front"></div>
             <div class="side back"></div>
