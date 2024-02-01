@@ -5,7 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>this is a test to deploy to vercel from replit</p>
+        <nav>
+          <ol>
+            <li>Home</li>
+            <li>Tharun</li>
+          </ol>
+        </nav>
       </header>
     </div>
   );
