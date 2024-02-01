@@ -63,8 +63,8 @@ body {
 .cube-wrap {
   --size: 30vmin;
   position: fixed;
-  top: 100%;
-  left: 100%;
+  top: 50%;
+  left: 10%;
   width: 0;
   height: 0;
   perspective: 100vmin;
