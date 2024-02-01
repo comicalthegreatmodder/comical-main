@@ -1,24 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import {
+  Jordanp
+} from "./components/Jordanp";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div class="progress" ></div>
-        
-        {/* <div class="cube-wrap">
-          <div class="cube">
-            <div class="side top">wsgmaniga</div>
-            <div class="side bottom">wsgmaniga</div>
-            <div class="side front">wsgmaniga</div>
-            <div class="side back">wsgmaniga</div>
-            <div class="side left">wsgmaniga</div>
-            <div class="side right">wsgmaniga</div>
-          </div>
-        </div> */}
-      </header>
-    </div>
+    <>
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route path="/">
+              <p>this is the home page</p>
+            </Route>
+            <Route path="/JP">
+              <Jordanp />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+    </>
+    
   );
 }
 
