@@ -10,11 +10,11 @@ function App() {
         <div class="cube-wrap">
           <div class="cube">
             <div class="side top">wsgmaniga</div>
-            <div class="side bottom"></div>
-            <div class="side front"></div>
-            <div class="side back"></div>
-            <div class="side left"></div>
-            <div class="side right"></div>
+            <div class="side bottom">wsgmaniga</div>
+            <div class="side front">wsgmaniga</div>
+            <div class="side back">wsgmaniga</div>
+            <div class="side left">wsgmaniga</div>
+            <div class="side right">wsgmaniga</div>
           </div>
         </div>
         <script>
