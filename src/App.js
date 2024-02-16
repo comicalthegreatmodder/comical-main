@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -6,9 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import {
-  Test
-} from "./components/Test";
+import Test from "./components/Test";
 
 function App() {
   return (
