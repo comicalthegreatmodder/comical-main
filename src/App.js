@@ -13,17 +13,13 @@ function App() {
       <BrowserRouter>
         <div className="App">
           <Routes>
-            <Route path="/">
-              <p>this is the home page</p>
-            </Route>
-            <Route path="/JP">
-              <Test />
-            </Route>
+            <Route path="/" element={<p>this is the home page</p>} />
+            <Route path="/JP" element={<Test />} />
           </Routes>
         </div>
       </BrowserRouter>
     </>
-    
+
   );
 }
 
