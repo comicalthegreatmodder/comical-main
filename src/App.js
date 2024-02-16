@@ -1,6 +1,6 @@
 import './App.css';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Routes,
   Route,
   Link
@@ -10,7 +10,7 @@ import Test from "./components/Test";
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <div className="App">
           <Routes>
             <Route path="/">
@@ -21,7 +21,7 @@ function App() {
             </Route>
           </Routes>
         </div>
-      </Router>
+      </BrowserRouter>
     </>
     
   );
