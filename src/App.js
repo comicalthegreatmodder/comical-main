@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import JP from "./components/JP";
+import CH from "./components/CH";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<p>this is the home page</p>} />
             <Route path="/JP" element={<JP />} />
+            <Route path="/CH" element={<CH />} />
           </Routes>
         </div>
       </BrowserRouter>
