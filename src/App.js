@@ -7,8 +7,8 @@ import {
   Link
 } from "react-router-dom";
 import {
-  Jordanp
-} from "./components/Jordanp";
+  Test
+} from "./components/Test";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
               <p>this is the home page</p>
             </Route>
             <Route path="/JP">
-              <Jordanp />
+              <Test />
             </Route>
           </Routes>
         </div>
