@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Test from "./components/Test";
+import JP from "./components/JP";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <div className="App">
           <Routes>
             <Route path="/" element={<p>this is the home page</p>} />
-            <Route path="/JP" element={<Test />} />
+            <Route path="/JP" element={<JP />} />
           </Routes>
         </div>
       </BrowserRouter>
