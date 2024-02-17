@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import JP from "./components/JP";
 import CH from "./components/CH";
+import HomePage from "./components/HomePage";
 
 function App() {
   return (
@@ -14,9 +15,7 @@ function App() {
       <BrowserRouter>
         <div className="App">
           <Routes>
-            <Route path="/" element={<p>this is the home page</p>} />
-            <Route path="/JP" element={<JP />} />
-            <Route path="/CH" element={<CH />} />
+            <Route path="/" element={ <HomePage /> } />
           </Routes>
         </div>
       </BrowserRouter>
