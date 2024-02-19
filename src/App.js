@@ -8,10 +8,11 @@ import {
 import JP from "./components/JP";
 import CH from "./components/CH";
 import HomePage from "./components/HomePage";
+import { AnimatePresence } from "framer-motion";
 
 function App() {
   return (
-    <>
+    <AnimatePresence>
       <BrowserRouter>
         <div className="App">
           <Routes>
@@ -19,10 +20,11 @@ function App() {
           </Routes>
         </div>
       </BrowserRouter>
-    </>
+    </AnimatePresence>
 
   );
 }
+
 
 window.addEventListener('scroll', () => {
   document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
