@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav>
       <ul>
-        <li><Link path="/about"></Link></li>
+        <li><Link to="/about"></Link></li>
       </ul>
     </nav>
   );
