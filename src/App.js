@@ -14,12 +14,14 @@ import About from './components/About';
 function App() {
   return (
     <AnimatePresence>
+      <BrowserRouter>
         <div className="App">
           <Routes>
             <Route path="/" element={ <HomePage /> } />
             <Route path="/about" element={ <About /> } />
           </Routes>
         </div>
+      </BrowserRouter>
     </AnimatePresence>
 
   );
