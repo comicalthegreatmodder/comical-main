@@ -15,6 +15,15 @@ function HomePage() {
         </div>
         
       </motion.div>
+
+      <motion.p 
+        initial={{ opacity: 0 }}
+        transition={{ times: [1, 0.2, 0.8] }}
+        animate={{ opacity: [0,1,0] }}
+        className="comicalonesign"
+      >
+        comical.one
+      </motion.p>
       
       <Navbar />
       <h1>Tharun was here - 2/17/24</h1>
