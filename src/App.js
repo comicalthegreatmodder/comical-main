@@ -8,7 +8,7 @@ import {
 import JP from "./components/JP";
 import CH from "./components/CH";
 import HomePage from "./components/HomePage";
-import { AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import About from './components/About';
 
 function App() {
