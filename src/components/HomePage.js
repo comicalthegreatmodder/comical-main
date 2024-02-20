@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
-import "./css/HomePage.css";"
+import "./css/HomePage.css";
 
 function HomePage() {
   return (
