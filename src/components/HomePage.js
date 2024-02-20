@@ -5,9 +5,17 @@ import "./css/HomePage.css";
 function HomePage() {
   return (
     <>
-      <div className="blackBox">
+      <motion.div
+        initial={{ opacity: 1 }} 
+        transition={{ duration: 2 }}
+        animate= {{ opacity: 0 }}
+      >
+        <div className="blackBox">
+          
+        </div>
         
-      </div>
+      </motion.div>
+      
       <Navbar />
       <h1>Tharun was here - 2/17/24</h1>
       
