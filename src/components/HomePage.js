@@ -7,8 +7,8 @@ function HomePage() {
     <>
       <motion.div
         initial={{ opacity: 1 }} 
-        transition={{ duration: 5 }}
-        animate= {{ opacity: 0 }}
+        transition={{ times: [4.2, 0.8] }}
+        animate= {{ opacity: [1, 0] }}
       >
         <div className="blackBox">
           
