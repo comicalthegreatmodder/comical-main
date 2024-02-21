@@ -56,16 +56,16 @@ const InitialTransition = () => {
             patternUnits="userSpaceOnUse"
             width={750}
             height={800}
-            className="text-white"
+            className="comicalonetext"
           >
-            <rect className="w-full h-full fill-current" />
+            <rect className="comicalonetext" />
             <motion.rect
               variants={text}
               className=""
             />
           </pattern>
           <text
-            className="text-4xl font-bold"
+            className="comicalonetext"
             text-anchor="middle"
             x="50%"
             y="50%"
