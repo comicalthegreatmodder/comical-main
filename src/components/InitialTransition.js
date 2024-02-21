@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const blackBox = {
   initial: {
     height: "100vh",
