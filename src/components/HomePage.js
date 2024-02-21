@@ -8,7 +8,7 @@ function HomePage() {
       <motion.div
         initial={{ opacity: 1 }} 
         transition={{ duration: 5 }}
-        animate= {{ opacity: [1, 1, 1, 1, 1, 0] }}
+        animate= {{ opacity: [1, 1, 1, 1, 0] }}
       >
         <div className="blackBox">
           
@@ -18,8 +18,8 @@ function HomePage() {
 
       <motion.h1 
         initial={{ opacity: 0 }}
-        transition={{ times: [1, 1, 1, 1, 0.2, 0.8] }}
-        animate={{ opacity: [0, 0, 0, 0, 1, 0] }}
+        transition={{ duration: 5 }}
+        animate={{ opacity: [0, 0, 0, 1, 0] }}
         className="comicalonesign"
       >
         comical.one
