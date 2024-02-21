@@ -5,7 +5,7 @@ import InitialTransition from "./InitialTransition"
 function HomePage() {
   return (
     <>
-      <InitialTransition />
+      <p className="scale-up-center"></p>
       
       <Navbar />
       <h1>Tharun was here - 2/17/24</h1>
