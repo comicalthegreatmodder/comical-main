@@ -19,7 +19,7 @@ function HomePage() {
       <motion.h1 
         initial={{ opacity: 0 }}
         transition={{ duration: 5 }}
-        animate={{ opacity: [0, 0, 0, 1, 0] }}
+        animate={{ opacity: [0, 1, 0, 0, 0] }}
         className="comicalonesign"
       >
         comical.one
