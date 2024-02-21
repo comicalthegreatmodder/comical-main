@@ -1,29 +1,12 @@
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
 import "./css/HomePage.css";
+import InitialTransition from "./InitialTransition"
 
 function HomePage() {
   return (
     <>
-      <motion.div
-        initial={{ opacity: 1 }} 
-        transition={{ duration: 5 }}
-        animate= {{ opacity: [1, 1, 1, 1, 0] }}
-      >
-        <div className="blackBox">
-          
-        </div>
-        
-      </motion.div>
-
-      <motion.h1 
-        initial={{ opacity: 0 }}
-        transition={{ duration: 5 }}
-        animate={{ opacity: [0, 1, 0, 0, 0] }}
-        className="comicalonesign"
-      >
-        comical.one
-      </motion.h1>
+      <InitialTransition />
       
       <Navbar />
       <h1>Tharun was here - 2/17/24</h1>
