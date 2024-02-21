@@ -21,7 +21,7 @@
 }
 
 .flicker-in {
-  animation: flicker-in-1 3s linear both;
+  animation: flicker-in 3s linear both;
 }
 
 @keyframes flicker-in {
