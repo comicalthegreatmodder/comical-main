@@ -9,7 +9,7 @@ function HomePage() {
         
       </div>
       
-      <h1 className="flicker-in center-page ">comical.one</h1>
+      <h1 className="flicker-in center-page comicalonetext ">comical.one</h1>
 
       
     </>
