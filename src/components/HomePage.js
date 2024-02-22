@@ -11,7 +11,7 @@ function HomePage() {
       
       <h1 className="flicker-in center-page comicalonetext slide-top ">comical.one</h1>
 
-      
+      <h2 className="puff-in-center">On a mission to make the most beautiful website.</h2>
     </>
   )
 }
