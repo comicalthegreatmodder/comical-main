@@ -9,7 +9,7 @@ function HomePage() {
         
       </div>
       
-      <h1 className="comicalonetext play-animations ">comical.one</h1>
+      <h1 className="comicalonetext play-animations center-page ">comical.one</h1>
 
       {/*<h2 className="slide-in-elliptic-top-bck">On a mission to make the most beautiful website.</h2>*/}
     </>
