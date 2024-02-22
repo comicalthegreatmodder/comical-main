@@ -5,8 +5,7 @@
   width: 100%; 
   height: 100%; 
   background-color: black; 
-  z-index: 100; 
-  animation-delay: 4s; 
+  z-index: 100;
 }
 
 .comicalonetext {
@@ -136,7 +135,7 @@
 }
 
 .slide-out-top {
-  animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: slide-out-top 1s ease-in 4s both;
 }
 
 @keyframes slide-out-top {
