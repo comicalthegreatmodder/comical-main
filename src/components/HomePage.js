@@ -5,7 +5,12 @@ import InitialTransition from "./InitialTransition"
 function HomePage() {
   return (
     <>
-      <h1 className="flicker-in center-page">comical.one</h1>
+      <div className="blackBox slide-out-top">
+        
+      </div>
+      
+      <h1 className="flicker-in center-page ">comical.one</h1>
+
       
     </>
   )
