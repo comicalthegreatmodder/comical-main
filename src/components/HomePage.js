@@ -5,13 +5,16 @@ import InitialTransition from "./InitialTransition"
 function HomePage() {
   return (
     <>
-      <div className="blackBox slide-out-top">
+      <div className="homePageGrid">
+        <div className="blackBox slide-out-top">
         
-      </div>
+        </div>
       
-      <h1 className="comicalonetext play-animations center-page ">comical.one</h1>
+        <h1 className="comicalonetext play-animations center-page ">comical.one</h1>
 
-      {/*<h2 className="slide-in-elliptic-top-bck">On a mission to make the most beautiful website.</h2>*/}
+        <h2 className="slide-in-bck-top div1">On a mission to make the most beautiful website.</h2>
+      </div>
+        
     </>
   )
 }
