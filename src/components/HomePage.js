@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import "./css/HomePage.css";
-import InitialTransition from "./InitialTransition"
+import Link from ""
 
 function HomePage() {
   return (
@@ -12,7 +12,9 @@ function HomePage() {
       
         <h1 className="comicalonetext play-animations center-page ">comical.one</h1>
 
-        <h2 className="slide-in-bck-top div1">On a mission to make the most beautiful website.</h2>
+        <h2 className="slide-in-bck-top">On a mission to make the most beautiful website.</h2>
+
+        <h3 className="slide-in-bck-right ">Test Nav 1</h3>
       </div>
         
     </>
