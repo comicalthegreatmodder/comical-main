@@ -1,6 +1,5 @@
 import Navbar from "./Navbar";
 import "./css/HomePage.css";
-import Link from ""
 
 function HomePage() {
   return (
