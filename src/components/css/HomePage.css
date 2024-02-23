@@ -31,6 +31,11 @@
   left: 0vh;
 }
 
+.testnav1 {
+  --xposisibr: 90vh;
+  --yposisibr: 0vh;
+}
+
 .slide-in-bck-right {
 	animation: slide-in-bck-right 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) 6s both;
 }
@@ -41,7 +46,7 @@
     opacity: 0;
   }
   100% {
-    transform: translateZ(0) translateX(90vh);
+    transform: translateZ(var(--yposisibr)) translateX(var(--xposisibr));
     opacity: 1;
   }
 }

@@ -13,7 +13,7 @@ function HomePage() {
 
         <h2 className="slide-in-bck-top">On a mission to make the most beautiful website.</h2>
 
-        <h3 className="slide-in-bck-right ">Test Nav 1</h3>
+        <h3 className="slide-in-bck-right testnav1">Test Nav 1</h3>
       </div>
         
     </>
