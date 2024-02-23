@@ -13,7 +13,6 @@ import About from './components/About';
 
 function App() {
   return (
-    <AnimatePresence>
       <BrowserRouter>
         <div className="App">
           <Routes>
@@ -22,8 +21,6 @@ function App() {
           </Routes>
         </div>
       </BrowserRouter>
-    </AnimatePresence>
-
   );
 }
 
