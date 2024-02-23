@@ -28,13 +28,13 @@
 }
 
 .aboutText {
-  --posvarZ: 0vh;
-  --posvarX: 90vh;
+  --posVarZ: 0vh;
+  --posVarX: 90vh;
 }
 
 .testnav2 {
-  --posvarZ: 0vh;
-  --posvarX: -90vh;
+  --posVarZ: 0vh;
+  --posVarX: -90vh;
 }
 
 .slide-in-bck-right {
