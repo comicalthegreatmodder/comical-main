@@ -4,7 +4,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import StandIn from './StandIn.js'
+import { StandIn } from './StandIn.js'
 
 function App() {
   return (
